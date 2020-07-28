@@ -23,5 +23,16 @@ public class CDPlayerTest {
         assertEquals("Hamilton", cdPlayer.checkDiskTray());
     }
 
+    @Test
+    public void canGetPower() {
+        assertEquals(false, cdPlayer.getPower());
+    }
+
+    @Test
+    public void canSetPower() {
+        cdPlayer.setPower(true);
+        assertEquals(true, cdPlayer.getPower());
+    }
+
 
 }

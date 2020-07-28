@@ -1,4 +1,4 @@
-public class CDPlayer {
+public class CDPlayer extends Component {
 
     private String disk;
 
