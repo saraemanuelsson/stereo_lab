@@ -1,4 +1,4 @@
-public class Radio implements ITune {
+public class Radio extends Component implements ITune {
 
     private String station;
 
@@ -13,4 +13,6 @@ public class Radio implements ITune {
     public void changeStation(String station){
         this.station = station;
     }
+
+
 }

@@ -22,4 +22,15 @@ public class RadioTest {
         radio.changeStation("Radio 1");
         assertEquals("Radio 1", radio.tune());
     }
+
+    @Test
+    public void canGetVolume(){
+        assertEquals(0, radio.getVolume());
+    }
+
+    @Test
+    public void canChangeVolume() {
+        radio.setVolume(42);
+        assertEquals(42, radio.getVolume());
+    }
 }
