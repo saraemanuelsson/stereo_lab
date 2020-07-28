@@ -34,5 +34,17 @@ public class CDPlayerTest {
         assertEquals(true, cdPlayer.getPower());
     }
 
+    @Test
+    public void canGetPlayPause() {
+        assertEquals(false, cdPlayer.getPlayPause());
+    }
+
+    @Test
+    public void canSetPlayPause() {
+        cdPlayer.setPlayPause(true);
+        assertEquals(true, cdPlayer.getPlayPause());
+    }
+
+
 
 }
