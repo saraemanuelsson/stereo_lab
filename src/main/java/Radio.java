@@ -1,4 +1,4 @@
-public class Radio extends Component implements ITune {
+public class Radio extends Component implements ITune, IVolume, IPower {
 
     private String station;
 

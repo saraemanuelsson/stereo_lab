@@ -1,9 +1,7 @@
-import com.sun.org.apache.xpath.internal.operations.Bool;
+public abstract class Component {
 
-public abstract class Component implements IVolume{
-
-    private int volume;
-    private Boolean power;
+    protected int volume;
+    protected Boolean power;
 
     public Component(){
         this.volume = 0;

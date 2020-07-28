@@ -1,5 +1,6 @@
 public interface IPower {
 
-    public void setPower();
+    public void setPower(Boolean power);
+    public Boolean getPower();
 
 }
